@@ -7,11 +7,13 @@ This is a real-time chat application built using Socket.io, with a frontend impl
 - Frontend:
   - React
   - react-scroll-to-bottom
+  - socket.io-client
 
 - Backend:
   - Node.js
   - Express
   - Socket.io
+    
 
 ## How it works
 
