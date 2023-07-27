@@ -19,7 +19,7 @@ app.post('/authenticate', async (req,res) =>{
 
 const io = new Server(server, {
     cors: {
-        origin: "http://localhost:3000",
+        origin:"https://stellar-starlight-e86ff2.netlify.app" , //"http://localhost:3000"(for development environment)
         methods: ['GET', 'POST'],
     },
 })
