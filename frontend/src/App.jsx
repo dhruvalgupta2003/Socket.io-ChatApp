@@ -3,7 +3,7 @@ import io from "socket.io-client";
 import { useState } from "react";
 import Chat from "./Chat";
 
-const socket = io.connect("http://localhost:5000");
+const socket = io.connect(https://chat-app-server-2did.onrender.com); //"http://localhost:5000"(for development environment)
 
 function App() {
   const [username, setUsername] = useState("");
