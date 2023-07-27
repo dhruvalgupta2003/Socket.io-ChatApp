@@ -36,7 +36,7 @@ To run the Socket.io Chat App locally, follow these steps:
 1. Clone the repository:
 
 ```bash
-git clone [https://github.com/your-username/socket-io-chat-app.git](https://github.com/dhruvalgupta2003/Socket.io-ChatApp.git)
+git clone [https://github.com/dhruvalgupta2003/Socket.io-ChatApp.git]
 cd socket-io-chat-app
 ```
 
