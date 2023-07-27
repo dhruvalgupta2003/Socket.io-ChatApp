@@ -19,7 +19,7 @@ app.post('/authenticate', async (req,res) =>{
 
 const io = new Server(server, {
     cors: {
-        origin:"https://socketio-chat-app-01.netlify.app/" , //"http://localhost:3000"(for development environment)
+        origin:"*" , //"http://localhost:3000"(for development environment)
         methods: ['GET', 'POST'],
     },
 })
